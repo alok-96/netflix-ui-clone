@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Netflix Sans Light';
+    src: url(netflix-sans-font/NetflixSans-Light.otf);
+}
+
+@font-face {
+    font-family: 'Netflix Sans Bold';
+    src: url(netflix-sans-font/NetflixSans-Bold.otf);
+}
+
+body{
+    font-family: 'Netflix Sans', 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+h1{
+    font-family: 'Netflix Sans Bold', 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+
+p{
+    font-size: 1.2rem;
+    color:rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* Utility Classess */
+.container{
+    max-width: 1150px;
+    margin-inline: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.small-btn{
+    background-color: #e50914;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 15px;
+}
+
+.btn:hover{
+    background-color: #c2060f;
+}
+
+.large-btn{
+    background-color: #e50914;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    border: 0px;
+    padding: 5px 10px;
+}
+
+.large-btn:hover {
+    background-color: #c2060f;
+}
+
+
+/* Header */
+.header{
+    background: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url(./assets/asset\ 14.jpg);
+    background-size: cover;
+    border-bottom: 10px solid rgb(43, 43, 43);
+    padding-bottom: 200px;
+}
+
+.company-logo img{
+    width: 200px;
+}
+
+.header-section{
+    flex-direction: column;
+    gap: 200px;
+}
+
+.top-banner{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    gap: 20px;
+}
+
+.menu select{
+    padding: 5px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.large-btn select, a{
+    text-align: center;
+    height: 30px;
+}
+
+.hero-section{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.tag-line{
+    font-size: 1.5rem;
+}
+
+.news-letter{
+    gap:10px;
+    justify-content: space-around;
+}
+
+.news-letter input, button{
+    height: 50px;
+    width: 200px;
+}
+
+.news-letter input{
+    border-radius: 5px;
+    padding: 20px;
+    color: #ffffff;
+    background-color: rgb(0,0,0,0);
+    border: 1px solid rgb(100, 100, 100);
+}
+
+
+
+
+/* Feature Section */
+.features-section-1, .features-section-2{
+    border-bottom: 10px solid rgb(43, 43, 43);
+}
+
+.feature-area{
+    padding-block: 70px;
+    align-items: center;
+}
+
+.feature-text, .feature-img{
+    width: 50%;
+}
+
+.feature-text{
+    flex-direction: column;
+    gap: 25px;
+}
+
+.feature-text p{
+    font-size: 1.5rem;
+}
+
+.features-section-2 .feature-area{
+    flex-direction: row-reverse;
+}
+
+
+
+
+/* FAQ Section */
+.faq-section{
+    border-bottom: 10px solid rgb(43, 43, 43);
+}
+
+.faq{
+    padding-block: 50px;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.faq h1{
+    padding-block: 10px;
+}
+
+.faq-area{
+    width: 100%;
+    padding: 30px 20px;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+}
+
+.faq-area:hover{
+    background-color: #4e4e4e;
+    transition: 0.2s ease-out;
+    cursor:pointer;
+}
+
+.faq-area p{
+    font-size: 1.5rem;
+}
+
+.faq p{
+    padding-top: 30px;
+}
+
+
+
+
+/* Footer */
+.footer{
+    padding-block: 50px;
+}
+
+.footer-section p, a, select{
+    color: #b3b3b3;
+    font-size: 1rem;
+}
+
+.cnt-no{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-section a{
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+.footer-section{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.link-column{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.lang select{
+    padding: 5px;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 3px;
+}
