@@ -85,7 +85,7 @@ a{
 
 /* Header */
 .header{
-    background: linear-gradient(rgb(0,0,0,0.8), rgb(0,0,0,0.8)), url(./assets/asset\ 14.jpg);
+    background: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.6)), url(./assets/asset\ 14.jpg);
     background-size: cover;
     border-bottom: 10px solid rgb(43, 43, 43);
     padding-bottom: 200px;
