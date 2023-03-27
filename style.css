@@ -49,6 +49,7 @@ a{
 .container{
     max-width: 1150px;
     margin-inline: auto;
+    padding-inline: 30px;
 }
 
 .flex{
@@ -136,9 +137,9 @@ a{
     justify-content: space-around;
 }
 
-.news-letter input, button{
-    height: 50px;
-    width: 200px;
+.news-letter button{
+    padding-inline: 20px;
+    padding-block: 15px;
 }
 
 .news-letter input{
@@ -153,7 +154,7 @@ a{
 
 
 /* Feature Section */
-.features-section-1, .features-section-2{
+.features-section{
     border-bottom: 10px solid rgb(43, 43, 43);
 }
 
@@ -175,7 +176,7 @@ a{
     font-size: 1.5rem;
 }
 
-.features-section-2 .feature-area{
+.reverse{
     flex-direction: row-reverse;
 }
 
