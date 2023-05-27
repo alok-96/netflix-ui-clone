@@ -19,7 +19,7 @@
 body{
     font-family: 'Netflix Sans', 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
-    background-color: black;
+    background-color: #00081d;
 }
 
 h1{
@@ -47,8 +47,7 @@ a{
 
 /* Utility Classess */
 .container{
-    max-width: 1150px;
-    margin-inline: auto;
+    margin-inline: 120px;
     padding-inline: 30px;
 }
 
@@ -77,6 +76,9 @@ a{
     font-size: 1.5rem;
     border: 0px;
     padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .large-btn:hover {
@@ -86,28 +88,21 @@ a{
 
 /* Header */
 .header{
-    background: linear-gradient(rgb(0,0,0,0.6), rgb(0,0,0,0.6)), url(./assets/asset\ 14.jpg);
-    background-size: cover;
-    border-bottom: 10px solid rgb(43, 43, 43);
-    padding-bottom: 200px;
+    margin: 10px 30px;
 }
 
 .company-logo img{
-    width: 200px;
+    width: 180px;
 }
 
 .header-section{
-    flex-direction: column;
-    gap: 200px;
-}
-
-.top-banner{
     justify-content: space-between;
     align-items: center;
 }
 
 .menu{
     gap: 20px;
+    margin-right: 20px;
 }
 
 .menu select{
@@ -122,10 +117,26 @@ a{
     height: 30px;
 }
 
+/* Poster */
+.poster{
+    margin-inline: 50px;
+    margin-block: 10px;
+    background: linear-gradient(to right, rgb(52, 5, 5), rgba(20, 27, 115, 0.5), rgba(65, 62, 62, 0.2)), url(./assets/asset\ 14.jpg);
+    padding-block: 120px;
+    border-radius: 20px;
+    background-position: top;
+    padding-left: 100px;
+}
+
+.hero-section h1{
+    font-size: 4rem;
+}
+
 .hero-section{
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     gap: 20px;
+    flex-basis: 100%;
 }
 
 .tag-line{
@@ -134,7 +145,7 @@ a{
 
 .news-letter{
     gap:10px;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .news-letter button{
@@ -148,18 +159,22 @@ a{
     color: #ffffff;
     background-color: rgb(0,0,0,0);
     border: 1px solid rgb(100, 100, 100);
+    width: 400px;
+    flex-basis: 60%;
 }
 
+input::placeholder{
+    color: #ffffff;
+}
+
+.icon{
+    filter: invert(1) sepia(1) saturate(6) hue-rotate(182deg);
+}
 
 
 
 /* Feature Section */
-.features-section{
-    border-bottom: 10px solid rgb(43, 43, 43);
-}
-
 .feature-area{
-    padding-block: 70px;
     align-items: center;
 }
 
@@ -173,7 +188,8 @@ a{
 }
 
 .feature-text p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 800;
 }
 
 .reverse{
@@ -184,15 +200,10 @@ a{
 
 
 /* FAQ Section */
-.faq-section{
-    border-bottom: 10px solid rgb(43, 43, 43);
-}
-
 .faq{
     padding-block: 50px;
     flex-direction: column;
     gap: 10px;
-    align-items: center;
 }
 
 .faq h1{
@@ -203,11 +214,11 @@ a{
     width: 100%;
     padding: 30px 20px;
     justify-content: space-between;
-    background-color: #2d2d2d;
+    background-color: #132144;
 }
 
 .faq-area:hover{
-    background-color: #4e4e4e;
+    background-color: #223362;
     transition: 0.2s ease-out;
     cursor:pointer;
 }

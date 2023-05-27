@@ -4,77 +4,79 @@
     }
 
     .container{
-        padding-inline: 40px;
+        margin-inline: 80px;
+    }
+
+    .poster {
+        padding-left: 50px;
+    }
+
+    .hero-section{
+        gap: 10px;
+    }
+
+    .hero-section h1{
+        font-size: 2.5rem;
     }
 
     .company-logo img{
         width: 100px;
     }
 
-    .header{
-        padding-bottom: 100px;
-    }
-
-    .header-section {
-        gap: 100px;
-    }
-
-    .hero-section{
-        text-align: center;
-    }
-
-    .feature-area{
-        flex-direction: column;
-    }
-
-    .feature-text{
-        text-align: center;
-        width: 100%;
-    }
-
-    .feature-img{
-        width: 70%;
-    }
-
     .feature-text p{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .faq-area{
+        padding-block: 25px;
+    }
+
+    .faq-area p{
+        font-size: 1.1rem;
     }
 }
 
-@media screen and (max-width: 600px) {
-    p{
-        font-size: 1.1rem;
+@media screen and (max-width: 900px) {
+    .large-btn{
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .poster{
+        margin-inline: 30px;
     }
 
-    .header{
-        padding-block: 10px;
+    .feature-area {
+        margin-block: 20px;
     }
 
+    .news-letter {
+        flex-direction: column;
+    }
+
+    #email-input {
+        flex-basis: 100%;
+    }
+
+    .menu {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 660px) {
     .container{
         padding-inline: 20px;
     }
 
-    .tag-line{
+    .tag-line{  
         font-size: 1.1rem;
-    }
-
-    .news-letter{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #email-input{
-        width: 180%;
     }
 
     .large-btn{
         font-size: 1.2rem;
         padding: 5px 0px;
-
-    }
-
-    .header {
-        padding-bottom: 50px;
     }
 
     .faq h1{
@@ -84,9 +86,32 @@
     .faq p{
         text-align: center;
     }
+
+    #email-input {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 550px) {
+    .container{
+        margin-inline: 20px;
+    }
+
+    .feature-area{
+        flex-direction: column;
+        gap: 30px;
+        margin-block: 30px;
+    }
+
+    .feature-text {
+        text-align: start;
+        width: 100%;
+    }
+
+    .feature-img {
+        width: 100%;
+    }
+
     .faq-area {
         padding: 20px 15px;
     }
@@ -94,11 +119,33 @@
     .faq-area p {
         font-size: 1.1rem;
     }
+
+    #email-input {
+        width: 100%;
+    }
+
+    .poster {
+        padding-left: 20px;
+        margin-inline: 30px;
+        padding-block: 70px;
+    }
 }
 
 @media screen and (max-width: 465px) {  
-    #email-input {
-        width: 150%;
+    .header-section{
+        margin-bottom: 20px;
+    }
+
+    .hero-section {
+        gap: 15px;
+    }
+
+    .header{
+        margin-inline: 20px;
+    }
+
+    .poster{
+        margin-inline: 20px;
     }
 
     .footer-area{
