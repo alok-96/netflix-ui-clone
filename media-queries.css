@@ -28,10 +28,6 @@
         font-weight: 400;
     }
 
-    .faq-area{
-        padding-block: 25px;
-    }
-
     .faq-area p{
         font-size: 1.1rem;
     }
@@ -79,14 +75,6 @@
         padding: 5px 0px;
     }
 
-    .faq h1{
-        text-align: center;
-    }
-
-    .faq p{
-        text-align: center;
-    }
-
     #email-input {
         width: 100%;
     }
@@ -110,10 +98,6 @@
 
     .feature-img {
         width: 100%;
-    }
-
-    .faq-area {
-        padding: 20px 15px;
     }
 
     .faq-area p {

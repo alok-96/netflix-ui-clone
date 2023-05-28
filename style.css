@@ -210,25 +210,42 @@ input::placeholder{
     padding-block: 10px;
 }
 
-.faq-area{
+.question, .answer{
     width: 100%;
     padding: 30px 20px;
     justify-content: space-between;
     background-color: #132144;
 }
 
-.faq-area:hover{
+.question{
+    border-bottom: 1px solid #00081d;
+}
+
+.question:hover{
     background-color: #223362;
     transition: 0.2s ease-out;
     cursor:pointer;
 }
 
-.faq-area p{
+.question p, .answer p{
     font-size: 1.5rem;
 }
 
+.answer{
+    display: none;
+}
 
+.answer.active{
+    display: block;
+}
 
+.question .icon{
+    transition: transform 0.2s;
+}
+
+.question .icon.active{
+    transform: rotate(45deg);
+}
 
 /* Footer */
 .footer{
