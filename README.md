@@ -21,10 +21,10 @@ This is the responsive clone of the homepage of Netflix India.
 
 ```
 1. Clone this repository
-   git clone https://github.com/alok-96/netflix-clone.git
+   git clone https://github.com/alok-96/netflix-ui-clone.git
  
 2. Go into the repository
-   cd netflix-clone
+   cd netflix-ui-clone
 
 3. Open with Live Server
 ```
